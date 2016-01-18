@@ -63,4 +63,4 @@ for x in losowe4:
     del kulki[x]
 
 print kulki
-print gr1
+print gr1 + 'TESTGCOMMIT'
