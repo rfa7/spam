@@ -1,7 +1,13 @@
 '''
 gra 12 KUL - 3 wazenia
+Jedna z kul waży mniej lub więcej niż pozostałe.
+12 kul, a-l, dzielimy je na 3 losowe grupy.
+Dwie pierwsze grupy ważymy.
+Jeżeli grupy ważą tyle samo:
+    - zajmujemy się 3 grupą
+Jeżeli ich waga nie jest taka sama:
+    - zapamiętujemy wynik ważenia
 
-mamy 12 kul, a-l, dzielimy je na 3 grupy
 '''
 import random
 kulki = {
