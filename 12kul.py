@@ -1,12 +1,14 @@
 '''
 gra 12 KUL - 3 wazenia
 Jedna z kul waży mniej lub więcej niż pozostałe.
-12 kul, a-l, dzielimy je na 3 losowe grupy.
-Dwie pierwsze grupy ważymy.
+12 kul, a-l, dzielimy je na 3 losowe grupy: gr1, gr2,g3.
+Dwie pierwsze grupy (gr1, gr2) ważymy.
 Jeżeli grupy ważą tyle samo:
     - zajmujemy się 3 grupą
 Jeżeli ich waga nie jest taka sama:
     - zapamiętujemy wynik ważenia
+    - tworzymy 3 grupy w następujący sposób:
+        *grA tworzą pierwsze 3 kule z gr1, grB tworzą pierwsze 3 kulki z gr2, grC tworzą 4-te kulki z gr1 i gr2 oraz pierwsza (dowolna) kulka z gr3
 
 '''
 import random
