@@ -9,7 +9,14 @@ Jeżeli ich waga nie jest taka sama:
     - zapamiętujemy wynik ważenia
     - tworzymy 3 grupy w następujący sposób:
         *grA tworzą pierwsze 3 kule z gr1, grB tworzą pierwsze 3 kulki z gr2, grC tworzą 4-te kulki z gr1 i gr2 oraz pierwsza (dowolna) kulka z gr3
+    -WAZYMY grA i grB. Jeżeli grupy ważą tyle samo:
+        - zajmujemy się grC:
+            - WAZYMY dwie kulki: jedną z gr3 (dowolną) i jedną z gr1. Jeżeli kulka z gr1 przyjmuje wynik ważenia identyczny z ważeniem pierwszym, oznacza to, że to ta kulka
+              waży inaczej niż pozostałe tzn. jest lżejsza lub cięższa, zgodnie z ważeniami 1 i 3 (pierwszym i trzecim). Jeżel natomiast kulki ważą tyle samo,
+              oznacza to, iż szukaną kulką o innej wadze jest kulka 4-ta z gr2. Jej waga została wskazana w pierwszym ważeniu.
+              
 
+    
 '''
 import random
 kulki = {
