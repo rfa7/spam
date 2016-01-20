@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 '''
 gra 12 KUL - 3 wazenia
 Jedna z kul waży mniej lub więcej niż pozostałe.
@@ -63,4 +64,5 @@ for x in losowe4:
     del kulki[x]
 
 print kulki
-print gr1 + 'TESTGCOMMIT'
+print gr1 
+print 'TESTGCOMMIT'
