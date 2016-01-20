@@ -46,12 +46,20 @@ def waga(x,y):
 #Test wazenia OK
 #print 'Wynik wazenia: ' + str(waga(kulki['a'],kulki['b']))
 
-gr1 = []
-gr2 = []
+gr1 = random.sample(kule,4)
+for x in gr1:
+    del kulki[x]
+gr2 = random.sample(kule,4)
+for x in gr2:
+    del kulki[x]
+gr3 = random.sample(kule,4)
+for x in gr3:
+    del kulki[x]
 
 #losowe4 = random.sample(kule,4)
-losowe4 = random.sample(kulki,4)
-print 'losowe kule to: ' + str(losowe4)
+#losowe4 = random.sample(kulki,4)
+#print 'losowe kule to: ' + str(losowe4)
+print 'AKTUALNY SLOWNIK kulki to: ' + str(kulki)
 razem = 0
 for i in losowe4:
     razem += kulki[i]
