@@ -23,14 +23,12 @@ Jeżeli ich waga nie jest taka sama:
             - WAZYMY dwie kulki: jedną z gr3 (dowolną) i jedną z gr1. Jeżeli kulka z gr1 przyjmuje wynik ważenia identyczny z ważeniem pierwszym, oznacza to, że to ta kulka waży inaczej niż pozostałe tzn. jest lżejsza lub cięższa, zgodnie z ważeniami 1 i 3 (pierwszym i trzecim). Jeżel natomiast kulki ważą tyle samo, oznacza to, iż szukaną kulką o innej wadze jest kulka 4-ta z gr2. Jej waga została wskazana w pierwszym ważeniu.
 '''
 
-
 import random
-kulki = {
-        'a':2, 'b':2,'c':2,'d':2,'e':1,'f':2,'g':2,'h':2,'i':2,'j':2,'k':2,'l':2
-}
+kulki = {'a':2, 'b':2,'c':2,'d':2,'e':1,'f':2,'g':2,'h':2,'i':2,'j':2,'k':2,'l':2 }
 
 #TEST
-print kulki['a'] + kulki['b']
+#print kulki['a'] + kulki['b']
+
 
 #Funkcja waga zwraca w wyniku CIEZSZA KULKE, a jesli waza tyle samo - zwraca 0
 def waga(x,y):
@@ -42,7 +40,7 @@ def waga(x,y):
         return 0
 
 #Test wazenia OK
-print 'Wynik wazenia: ' + str(waga(kulki['a'],kulki['b']))
+#print 'Wynik wazenia: ' + str(waga(kulki['a'],kulki['b']))
 
 gr1 = []
 gr2 = []
