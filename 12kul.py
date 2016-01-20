@@ -2,7 +2,11 @@
 '''
 gra 12 KUL - 3 wazenia
 Jedna z kul waży mniej lub więcej niż pozostałe.
-12 kul, a-l, dzielimy je na 3 losowe grupy: gr1, gr2, gr3.
+*****Import modułu losowania
+*****Utworzenie słownika (dictionary) kulki
+*****Funkcja 'waga' zwracająca cięższą stronę lub 0  gdy strony są równe
+*****
+*****12 kul, a-l, dzielimy je na 3 losowe grupy: gr1, gr2, gr3.
 Dwie pierwsze grupy (gr1, gr2) ważymy.
 Jeżeli grupy ważą tyle samo:
     - zajmujemy się 3 grupą
