@@ -60,18 +60,19 @@ for x in gr3:
 #losowe4 = random.sample(kulki,4)
 #print 'losowe kule to: ' + str(losowe4)
 print 'AKTUALNY SLOWNIK kulki to: ' + str(kulki)
+
 razem = 0
 for i in losowe4:
     razem += kulki[i]
-
 print 'ich suma to: ' + str(razem)
-for x in losowe4:
+
+#for x in losowe4:
 #    print x
 #    print kule
 #    kule.remove(x)
 #    print 'USUNIETO!!!!'
-    gr1.append(x)
-    del kulki[x]
+#    gr1.append(x)
+#    del kulki[x]
 
 print kulki
 print gr1 
