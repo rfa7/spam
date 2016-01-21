@@ -46,6 +46,13 @@ def waga(x,y):
 #Test wazenia OK
 #print 'Wynik wazenia: ' + str(waga(kulki['a'],kulki['b']))
 
+"""
+LOPATOLOGIA :
+    Tworzymy liste na podstawie slownika.
+    Po losowym wybraniu 4 kulek (lista gr1) tworzymy na ich podstawie slownik (dict) nie usuwajac pozycji z oryginalnego slownika tylko z utworzonej na jego
+    podstawie listy. W ten sposob tworzymy 3 nowe slowniki wyrazajace losowania i zawierajace wartosci wagowe.
+"""
+
 gr1 = random.sample(kulki,4)
 for x in gr1:
     del kulki[x]
@@ -60,11 +67,19 @@ for x in gr3:
 #losowe4 = random.sample(kulki,4)
 #print 'losowe kule to: ' + str(losowe4)
 print 'AKTUALNY SLOWNIK kulki to: ' + str(kulki)
+print 'grupa 1 - gr1: '
+print type(gr1) 
+print gr1 
+print gr1[0]
+#===============================================
+#Wazenie1 = 
 
+"""
 razem = 0
 for i in losowe4:
     razem += kulki[i]
 print 'ich suma to: ' + str(razem)
+"""
 
 #for x in losowe4:
 #    print x
@@ -74,6 +89,3 @@ print 'ich suma to: ' + str(razem)
 #    gr1.append(x)
 #    del kulki[x]
 
-print kulki
-print gr1 
-print 'TESTGCOMMIT'
