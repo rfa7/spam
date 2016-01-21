@@ -29,7 +29,7 @@ Jeżeli ich waga nie jest taka sama:
 
 import random
 kulki = {'a':2, 'b':2,'c':2,'d':2,'e':1,'f':2,'g':2,'h':2,'i':2,'j':2,'k':2,'l':2 }
-
+lkulki
 #TEST
 #print kulki['a'] + kulki['b']
 
