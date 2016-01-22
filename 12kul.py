@@ -29,7 +29,8 @@ Jeżeli ich waga nie jest taka sama:
 
 import random
 kulki = {'a':2, 'b':2,'c':2,'d':2,'e':1,'f':2,'g':2,'h':2,'i':2,'j':2,'k':2,'l':2 }
-lkulki
+
+kule = {k:v for k,v in kulki.items()}
 #TEST
 #print kulki['a'] + kulki['b']
 
@@ -56,20 +57,26 @@ LOPATOLOGIA :
 gr1 = random.sample(kulki,4)
 for x in gr1:
     del kulki[x]
+print ' po pierwszym losowaniu: '
+print kulki
 gr2 = random.sample(kulki,4)
 for x in gr2:
     del kulki[x]
+print ' po drugim losowaniu: '
+print kulki
 gr3 = random.sample(kulki,4)
 for x in gr3:
     del kulki[x]
+print ' po trzecim losowaniu: '
+print kulki
 
 #losowe4 = random.sample(kule,4)
 #losowe4 = random.sample(kulki,4)
 #print 'losowe kule to: ' + str(losowe4)
 print 'AKTUALNY SLOWNIK kulki to: ' + str(kulki)
 print 'grupa 1 - gr1: '
-print type(gr1) 
-print gr1 
+print type(gr1)
+print gr1
 print gr1[0]
 #===============================================
 #Wazenie1 = 
@@ -80,6 +87,17 @@ for i in losowe4:
     razem += kulki[i]
 print 'ich suma to: ' + str(razem)
 """
+def w_gr(grupa):
+    razem = 0
+    for i in kule:
+        if i in grupa:
+            razem += kule[i]
+    #print 'RAZEM: ' + str(razem)
+    return razem
+#print '------------------------WAGA GR1: '
+#print w_gr(gr1)
+
+print waga(w_gr(gr1),w_gr(gr2)) 
 
 #for x in losowe4:
 #    print x
