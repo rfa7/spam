@@ -14,8 +14,10 @@ def pytanie():
     x = str(raw_input('Czy liczba ' + str(ans) + ' jest właściwa? T-tak, D-za duża, M-za mała: '))
     return x
 x = pytanie()
-while x != 'd'or x != 'm' or x != 't':
-    print('Podano niewłaściwą odpowiedź - możliwe T,D,M. Spróbuj ponownie')
+def zlaOdp():
+    while x != 'd'or x != 'm' or x != 't':
+        print('Podano niewłaściwą odpowiedź - możliwe T,D,M. Spróbuj ponownie')
+        return dd
 if x  == 'T':
     print('OK')
 elif x == 'D':
