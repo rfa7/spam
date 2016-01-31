@@ -17,7 +17,7 @@ x = pytanie()
 def zlaOdp():
     while x != 'd'or x != 'm' or x != 't':
         print('Podano niewłaściwą odpowiedź - możliwe T,D,M. Spróbuj ponownie')
-        return dd
+        return pytanie() 
 if x  == 'T':
     print('OK')
 elif x == 'D':
@@ -27,4 +27,4 @@ elif x =='M':
     print('asdfasdfaM')
     max = ans
 else:
-    pytanie()
+    zlaOdp()
