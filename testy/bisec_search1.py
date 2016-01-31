@@ -15,9 +15,13 @@ def pytanie():
     return x
 x = pytanie()
 def zlaOdp():
-    while x != 'd'or x != 'm' or x != 't':
+#    while x != 'd'or x != 'm' or x != 't':
+    while str(x) not in 'dmt':
         print('Podano niewłaściwą odpowiedź - możliwe T,D,M. Spróbuj ponownie')
-        return pytanie() 
+        x = pytanie() 
+        print 'x to: ' + str(x)
+        raw_input('Enter: ')
+    return    
 if x  == 'T':
     print('OK')
 elif x == 'D':
