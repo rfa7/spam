@@ -19,7 +19,4 @@ while abs(nbalance) > eps:
         low = ans
     else:
         high = ans
-#    if 0.2>balance>=0:
 print 'Lowest Payment: ' + str(round(ans,2))
-#        break 
-    
