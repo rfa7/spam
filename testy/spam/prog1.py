@@ -8,3 +8,7 @@ print(7)
 print(8)
 print(9)
 # KOMENTARZ
+if a > 4:
+    print('Wartosc zmiennej \'a\' jest wieksza niz 4')
+else:
+    print ('Wartosc zmiennej a nie jest wieksza od 4')
