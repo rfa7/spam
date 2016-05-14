@@ -7,3 +7,4 @@ print('test6')
 print(7)
 print(8)
 print(9)
+# KOMENTARZ
