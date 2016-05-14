@@ -5,3 +5,4 @@ for i in (1, 2, 3, 4):
 print('zmiana ABCD')
 print('test6')
 print(7)
+print(8)
