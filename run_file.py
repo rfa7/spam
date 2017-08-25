@@ -1,5 +1,6 @@
 import sys
 import os
+# you can add some start dir as param in sys.path.insert
 sys.path.insert(0,'e:\\dev\\python')
 
 # function run/execute given file
